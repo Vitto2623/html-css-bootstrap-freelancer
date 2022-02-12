@@ -1,138 +1,141 @@
 /*HEADER*/
+.my-color{
+    background-color: #2c3e50;
+}
+
 .my-container-1{
     background-color: #2c3e50;
     height: 100px;
 }
-
-.col-md-6 li{
-    display: inline;
-    list-style: none;
-}
-
 /*JUMBOTRON*/
-.my-sm-col-12-1{
-    background-color: #1abc9c;
-    height: 552px;
-}
-/*MAIN*/
-.my-sm-col-12-3{
-    height: 150px;
-}
-/*SEZIONE-CARD*/
-.my-container-2{
-    background-color: blue;
-}
-
-.my-sm-col-12-4{
-    background-color: #ba4b63;
-    height: 342px;
-    border-radius: 13px;
-    margin-bottom: 30px;
-}
-
-.color-1{
-    background-color: #1ea4b6;
-}
-
-.color-2{
+section{
     background-color: black;
 }
 
-.color-3{
+.my-container-2{
+    height: 50vh;
+    background-color: black;
+}
+
+.color-jumbotron{
+    background-color: #1abc9c;
+    height: 50vh;
+}
+
+#jumbotron img{
+    height: 16em;
+}
+/*MAIN*/
+.my-container-3{
+    background-color: brown;
+    height: 130px;
+}
+/*SEZIONE-CARD*/
+.my-container-fluid-1{
+    background-color: green;
+    width: 94%;
+}
+
+.card{
+    height: 337px;
+    border-radius: 11px;
+    margin-bottom: 34px;
+}
+
+.card-color-1{
+    background-color: #ba4b63;
+}
+
+.card-color-2{
+    background-color: #1ea4b6;
+}
+
+.card-color-3{
+    background-color: black;
+}
+
+.card-color-4{
     background-color: #1c83c1;
 }
 
-.color-4{
+.card-color-5{
     background-color: #0e38b5;
 }
 
-.color-5{
+.card-color-6{
     background-color: #ccb2a3;
-    margin-bottom: 66px;
 }
 
-/*ABOUT-US*/
-.color-about-us{
+/*ABOUT*/
+.my-container-fluid-2{
     background-color: #1abc9c;
 }
 
-.color-6{
-    background-color: blueviolet;
+.my-container-4{
+    width: 70%;
 }
 
-.my-sm-col-12-5{
+.color-1{
+    background-color: royalblue;
+    height: 100px;
+}
+
+.color-2{
+    background-color: silver;
+}
+
+.my-row-1{
+    height: 69px;
+}
+
+/*CONTACT-ME*/
+.my-container-fluid-3{
+    background-color: yellow;
+}
+
+.my-container-5{
+    background-color: white;
+    width: 70%;
+}
+
+.color-3{
     background-color: red;
-    height: 120px;
-    margin-bottom: 23px;
-}
-
-.my-sm-col-12-6{
-    background-color:silver;
-    height: 250px;
-    margin: 23px 0px;
-}
-
-.my-sm-col-12-7{
-    background-color:silver;
-}
-
-.height-row{
-    border: 1px solid black;
     height: 100px;
 }
 
-/*CONTACT*/
-.color-contact{
-    background-color: skyblue;
-}
-
-.height{
-    background-color: violet
-}
-
-.my-sm-col-12-8{
-    background-color: orange;
-    height: 100px;
-}
-
-.my-sm-col-12-9{
-    background-color: orangered;
+.color-4{
+    background-color: salmon;
     height: 500px;
 }
-
-.my-sm-col-12-10{
-    background-color: palegreen;
-    height: 100px;
-}
 /*FOOTER*/
-.my-container-3{
+.my-container-fluid-4{
     background-color: #3a546d;
 }
 
-.color-container{
+.my-container-6{
     background-color: #3a546d;
+    width: 88%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.my-row-2{
+    height: 256px;
+}
+
+.color-5{
+    background-color: grey;
+}
+
+.color-6{
+    background-color: hotpink;
 }
 
 .color-7{
-    background-color: firebrick;
-    height: 10vh;
-}
-
-.color-8{
-    background-color: goldenrod;
-    height: 10vh;
-}
-
-.color-9{
-    background-color: green;
-    height: 10vh;
-}
-
-.color-10{
-    background-color: #2c3e50;
-    height: 10vh;
+    background-color: khaki;
 }
 /*Copyright*/
-.my-container-4{
+.my-container-fluid-5{
     background-color: #2c3e50;
+    height: 20vh;
 }
