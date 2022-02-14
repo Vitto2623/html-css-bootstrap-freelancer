@@ -1,11 +1,33 @@
 /*HEADER*/
-.my-color{
+.my-header{
     background-color: #2c3e50;
 }
 
 .my-container-1{
     background-color: #2c3e50;
-    height: 100px;
+    height: 85px;
+}
+
+.my-row{
+    height: 80px;
+}
+
+.my-container-1 h1{
+    font-size: 1.29em;
+    font-weight: 800;
+}
+
+.my-container-1 .fa-bars{
+    font-size: 1.50em;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: grey;
+}
+
+.my-container-1 a{
+    font-weight: 600;
 }
 
 /*JUMBOTRON*/
@@ -13,17 +35,12 @@ section{
     background-color: #1abc9c;
 }
 
-.my-container-2{
-    background-color: black;
-}
-
 .color-jumbotron{
     background-color: #1abc9c;
-    height: 569px;
 }
 
 #jumbotron img{
-    height: 19em;
+    height: 14em;
 }
 
 #jumbotron h1{
@@ -51,11 +68,20 @@ section{
 }
 
 /*MAIN*/
+/*Portfolio*/
+#portfolio{
+    background-color: white;
+}
+
 .my-container-3{
     height: 181px;
 }
 
-.d-flex i{
+#portfolio h1{
+    color: black;
+}
+
+#portfolio i{
     font-size: 28px;
     color: black;
     padding: 0px 15px;
@@ -68,15 +94,11 @@ section{
 }
 
 /*SEZIONE-CARD*/
-.my-container-fluid-1{
-    max-width: 1226px;
-    margin-bottom: 52px;
+.my-container-4{
+    padding: 0px;
 }
 
 .card{
-    width: 365px;
-    height: 269px;
-    border-radius: 11px;
     margin-bottom: 30px;
 }
 
@@ -105,10 +127,6 @@ section{
 }
 
 /*ABOUT*/
-.my-container-fluid-2{
-    background-color: #1abc9c;
-}
-
 .color-1{
     height: 161px;
 }
@@ -124,23 +142,32 @@ section{
     background-color: white;
 }
 
-.my-container-fluid-2 h1{
+.container h1{
     color: white;
 }
 
-.my-container-fluid-2 i{
+.container i{
     color: white;
+}
+
+.my-btn{
+    color: white;
+    border: 1px solid white;
 }
 
 /*CONTACT-ME*/
-
-.my-container-5{
-    max-width: 59%;
+#contact-me{
+    background-color: white;
 }
 
 .my-container-5 .line-3{
     background-color: black;
 }
+
+#contact-me i{
+    font-size: 28px;
+}
+
 /*FORM*/
 #input-width h6{
     margin-bottom: 0px;
@@ -165,8 +192,13 @@ section{
 }
 
 /*FOOTER*/
-.my-container-fluid-4{
+
+#top-footer{
     background-color: #3a546d;
+}
+
+#top-footer .fab{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .my-container-6{
@@ -174,19 +206,10 @@ section{
     color: white;
 }
 
-.my-container-fluid-4 h6{
-    font-size: 1.10em;
-}
-
-.my-container-fluid-4 p{
-    font-size: 1.37em;
-    margin-bottom: 2em;
-}
-
 /*Copyright*/
-.my-container-fluid-5{
+
+#bottom-footer{
     background-color: #2c3e50;
-    height: 94px;
 }
 
 .my-container-fluid-5 i{
