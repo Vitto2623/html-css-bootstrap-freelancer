@@ -13,7 +13,7 @@
 }
 
 .my-container-1 h1{
-    font-size: 1.29em;
+    font-size: 1.40em;
     font-weight: 800;
 }
 
@@ -93,7 +93,7 @@ section{
     background-color: black;
 }
 
-/*SEZIONE-CARD*/
+/*Sezione-card*/
 .my-container-4{
     padding: 0px;
 }
@@ -107,7 +107,7 @@ section{
     border-radius: 14px;
 }
 
-/*ABOUT*/
+/*About*/
 .color-1{
     height: 161px;
 }
@@ -129,6 +129,8 @@ section{
 
 .container i{
     color: white;
+    font-size: 28px;
+    padding: 0px 9px;
 }
 
 .my-btn{
@@ -136,7 +138,12 @@ section{
     border: 1px solid white;
 }
 
-/*CONTACT-ME*/
+#about .fas{
+    font-size: 1em;
+    padding: 0px;
+}
+
+/*Contact-me*/
 #contact-me{
     background-color: white;
 }
@@ -149,7 +156,7 @@ section{
     font-size: 28px;
 }
 
-/*FORM*/
+/*Form*/
 #input-width h6{
     margin-bottom: 0px;
 }
@@ -173,13 +180,8 @@ section{
 }
 
 /*FOOTER*/
-
 #top-footer{
     background-color: #3a546d;
-}
-
-#top-footer h4{
-    font-size: 1.10em;
 }
 
 #top-footer .fab{
@@ -191,6 +193,14 @@ section{
     color: white;
 }
 
+.my-container-6 h6{
+    font-size: 1.09em;
+}
+
+.my-container-6 p{
+    font-size: 1.20em;
+}
+
 #special{
     color: #1abc9c;
 }
@@ -199,9 +209,9 @@ section{
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0);
-    margin-right: 5px;
     border-radius: 30px;
     border: 1px solid white;
+    margin: 5px;
 }
 
 .box i{
@@ -209,7 +219,6 @@ section{
 }
 
 /*Copyright*/
-
 #bottom-footer{
     background-color: #2c3e50;
 }
