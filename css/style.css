@@ -100,30 +100,11 @@ section{
 
 .card{
     margin-bottom: 30px;
+    border-style: none;
 }
 
-.card-color-1{
-    background-color: #ba4b63;
-}
-
-.card-color-2{
-    background-color: #1ea4b6;
-}
-
-.card-color-3{
-    background-color: black;
-}
-
-.card-color-4{
-    background-color: #1c83c1;
-}
-
-.card-color-5{
-    background-color: #0e38b5;
-}
-
-.card-color-6{
-    background-color: #ccb2a3;
+.card img{
+    border-radius: 14px;
 }
 
 /*ABOUT*/
@@ -203,10 +184,6 @@ section{
 
 #top-footer .fab{
     background-color: rgba(0, 0, 0, 0);
-    padding: 19px 20px;
-    border-radius: 100%;
-    border: 1px solid white;
-    font-size: 1.10em;
 }
 
 .my-container-6{
@@ -216,6 +193,19 @@ section{
 
 #special{
     color: #1abc9c;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 5px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.box i{
+    font-size: 1.20em;
 }
 
 /*Copyright*/
