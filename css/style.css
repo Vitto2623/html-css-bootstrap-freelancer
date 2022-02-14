@@ -7,39 +7,77 @@
     background-color: #2c3e50;
     height: 100px;
 }
+
 /*JUMBOTRON*/
 section{
-    background-color: black;
+    background-color: #1abc9c;
 }
 
 .my-container-2{
-    height: 50vh;
     background-color: black;
 }
 
 .color-jumbotron{
     background-color: #1abc9c;
-    height: 50vh;
+    height: 569px;
 }
 
 #jumbotron img{
-    height: 16em;
+    height: 19em;
 }
+
+#jumbotron h1{
+    font-size: 2.8em;
+    font-weight: 630;
+    color: white;
+}
+
+#jumbotron i{ 
+    color: white;
+    font-size: 28px;
+    padding: 0px 15px;
+}
+
+#jumbotron a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.line-1{
+    width: 123px;
+    height: 3px;
+    background-color: white;
+}
+
 /*MAIN*/
 .my-container-3{
-    background-color: brown;
-    height: 130px;
+    height: 181px;
 }
+
+.d-flex i{
+    font-size: 28px;
+    color: black;
+    padding: 0px 15px;
+}
+
+.line-2{
+    height: 3px;
+    width: 134px;
+    background-color: black;
+}
+
 /*SEZIONE-CARD*/
 .my-container-fluid-1{
-    background-color: green;
-    width: 94%;
+    max-width: 1226px;
+    margin-bottom: 52px;
 }
 
 .card{
-    height: 337px;
+    width: 365px;
+    height: 269px;
     border-radius: 11px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }
 
 .card-color-1{
@@ -71,42 +109,61 @@ section{
     background-color: #1abc9c;
 }
 
-.my-container-4{
-    width: 70%;
-}
-
 .color-1{
-    background-color: royalblue;
-    height: 100px;
+    height: 161px;
 }
 
 .color-2{
-    background-color: silver;
+    color: white;
+    font-size: 1.30em;
 }
 
-.my-row-1{
-    height: 69px;
+.line-3{
+    height: 3px;
+    width: 120px;
+    background-color: white;
+}
+
+.my-container-fluid-2 h1{
+    color: white;
+}
+
+.my-container-fluid-2 i{
+    color: white;
 }
 
 /*CONTACT-ME*/
-.my-container-fluid-3{
-    background-color: yellow;
-}
 
 .my-container-5{
-    background-color: white;
-    width: 70%;
+    max-width: 59%;
 }
 
-.color-3{
-    background-color: red;
-    height: 100px;
+.my-container-5 .line-3{
+    background-color: black;
+}
+/*FORM*/
+#input-width h6{
+    margin-bottom: 0px;
 }
 
-.color-4{
-    background-color: salmon;
-    height: 500px;
+#input-width input{
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
 }
+
+#input-width textarea{
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+
+.my-btn-2{
+    background-color: #1abc9c;
+    border-style: none;
+}
+
 /*FOOTER*/
 .my-container-fluid-4{
     background-color: #3a546d;
@@ -114,28 +171,30 @@ section{
 
 .my-container-6{
     background-color: #3a546d;
-    width: 88%;
-    height: 100%;
-    border: 2px solid black;
+    color: white;
 }
 
-.my-row-2{
-    height: 256px;
+.my-container-fluid-4 h6{
+    font-size: 1.10em;
 }
 
-.color-5{
-    background-color: grey;
+.my-container-fluid-4 p{
+    font-size: 1.37em;
+    margin-bottom: 2em;
 }
 
-.color-6{
-    background-color: hotpink;
-}
-
-.color-7{
-    background-color: khaki;
-}
 /*Copyright*/
 .my-container-fluid-5{
     background-color: #2c3e50;
-    height: 20vh;
+    height: 94px;
+}
+
+.my-container-fluid-5 i{
+    font-size: 15px;
+    padding: 0px;
+    color: white;
+}
+
+.my-container-fluid-5 h6{
+    color: white;
 }
